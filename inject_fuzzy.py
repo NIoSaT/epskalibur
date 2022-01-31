@@ -23,6 +23,7 @@ def inject_fuzzy(x, tau):
 
 # Example Usage
 
+# Set tau corresponding to covert channel configuration
 tau = 5 / 1000
 # Read CSV
 input = pd.read_csv("iat.csv")
@@ -30,8 +31,9 @@ input = pd.read_csv("iat.csv")
 # Get IATs
 iat_cov = input["IAT"]
 
-#iat_cov.to_csv("output.csv")
 iat_fuzz = pd.DataFrame()
+
+# Inject fuzziness
 iat_fuzz = iat_cov.parallel_apply(lambda x: inject_fuzzy(x,tau))
 
 print(iat_fuzz)
