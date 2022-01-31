@@ -37,7 +37,7 @@ iat = input["Time"].rolling(2).apply(lambda x: x.iloc[1] - x.iloc[0]).dropna()
 # Prepare Datastructures
 results = []
 
-# Apply functions (eps-sim and improved) to each window
+# Apply function to each window
 scores = iat.groupby(np.arange(len(iat))//windowsize).apply(compress)
 
 print(scores)
