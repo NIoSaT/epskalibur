@@ -20,3 +20,7 @@ This script expects a list of inter-arrival times (IATs) and calculates the modi
 ### Example Files
 - `iat.csv` contains a list of IATs as they would be produced by the original IAT covert channel.
 - `timings.csv` contains a list of ascending packet times of legitimate traffic, recorded with Wireshark.
+
+### IAT Traffic Generation
+
+For generating network traffic, one can use [CCEAP](https://github.com/cdpxe/CCEAP/) together with its `iat_encode` tool. Afterwards, `wireshark` can be applied to record the traffic and extract the IAT values.
