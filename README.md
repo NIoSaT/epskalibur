@@ -18,5 +18,5 @@ This script expects a list of ascending packet times like Wireshark would record
 This script expects a list of inter-arrival times (IATs) and calculates the modified IATs for eps-kalibur.
 
 ### Example Files
-- `iat.csv` contains a list of IATs as they would be produced by an IAT covert channel.
+- `iat.csv` contains a list of IATs as they would be produced by the original IAT covert channel.
 - `timings.csv` contains a list of ascending packet times of legitimate traffic, recorded with Wireshark.
