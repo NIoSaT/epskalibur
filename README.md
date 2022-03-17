@@ -1,5 +1,5 @@
 # ε-κalibur
-This repository contains example code for the following ESORICS 2022 submission:
+This repository contains example code for the following submission:
 
 - [Sebastian Zillien](https://scholar.google.de/citations?user=kdCKry4AAAAJ&hl=de), [Steffen Wendzel](https://scholar.google.de/citations?user=DZqkZ1IAAAAJ&hl=en&oi=ao): *ε-κalibur: Weaknesses of two popular covert channel detection methods and a remedy*.
 
