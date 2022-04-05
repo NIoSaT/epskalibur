@@ -26,3 +26,8 @@ This script expects a list of inter-arrival times (IATs) and calculates the modi
 ### IAT Traffic Generation
 
 For generating network traffic, one can use [CCEAP](https://github.com/cdpxe/CCEAP/) together with its `iat_encode` tool. Afterwards, `wireshark` can be applied to record the traffic and extract the IAT values.
+
+#### pcap2iat
+This script expects a pcap recording with a single direction (A->B or B->A not mixed) and calculates the inter arrival times.
+
+    pcap2iat.sh recording.pcap
