@@ -10,7 +10,7 @@ import math
 pandarallel.initialize()
 np.random.seed(0)
 
-# The inject_fuzzy function expects the original daly x and the covert channel configuration tau and returns the modified delay
+# The inject_fuzzy function expects the original delay x and the covert channel configuration tau and returns the modified delay
 
 def inject_fuzzy(x, tau):
     thresh = (3*tau)/2
