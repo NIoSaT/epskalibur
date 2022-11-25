@@ -1,7 +1,7 @@
 # ε-κalibur
-This repository contains example code for the following submission:
+This repository contains instructions on the usage of the tool and includes sample IAT files (CSV format) for the following submission:
 
-- [Sebastian Zillien](https://scholar.google.de/citations?user=kdCKry4AAAAJ&hl=de), [Steffen Wendzel](https://scholar.google.de/citations?user=DZqkZ1IAAAAJ&hl=en&oi=ao): *Weaknesses of two popular covert channel detection methods and a remedy*.
+- [Sebastian Zillien](https://scholar.google.de/citations?user=kdCKry4AAAAJ&hl=de), [Steffen Wendzel](https://scholar.google.de/citations?user=DZqkZ1IAAAAJ&hl=en&oi=ao): *Weaknesses of popular and recent covert channel detection methods and a remedy*.
 
 ## Usage
 Each script contains the relevant functions and a simple usage example.
