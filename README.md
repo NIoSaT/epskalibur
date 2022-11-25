@@ -1,5 +1,5 @@
 # ε-κalibur
-This repository contains instructions on the usage of the tool and includes sample IAT files (CSV format) for the following submission:
+This repository contains instructions on the usage of the tool and includes sample inter-arrival time (IATs) files (CSV format) for the following submission:
 
 - [Sebastian Zillien](https://scholar.google.de/citations?user=kdCKry4AAAAJ&hl=de), [Steffen Wendzel](https://scholar.google.de/citations?user=DZqkZ1IAAAAJ&hl=en&oi=ao): *Weaknesses of popular and recent covert channel detection methods and a remedy*.
 
@@ -17,10 +17,10 @@ This script expects a list of ascending packet times like Wireshark would record
 This script expects a list of ascending packet times like Wireshark would record them, and calculates the epsilon-similarity scores for a window size of 2,000 packets for 6 different epsilon-thresholds.
 
 ### inject_fuzzy.py
-This script expects a list of inter-arrival times (IATs) and calculates the modified IATs for ε-κalibur.
+This script expects a list of IATs and calculates the modified IATs for ε-κalibur.
 
 ### inject_fuzzy_outlier.py
-This script expects a list of inter-arrival times (IATs) and calculates the modified IATs for ε-κalibur-O.
+This script expects a list of IATs and calculates the modified IATs for ε-κalibur-O.
 
 ### Example Files
 - `iat.csv` contains a list of IATs as they would be produced by the original IAT covert channel.
