@@ -19,6 +19,9 @@ This script expects a list of ascending packet times like Wireshark would record
 ### inject_fuzzy.py
 This script expects a list of inter-arrival times (IATs) and calculates the modified IATs for ε-κalibur.
 
+### inject_fuzzy_outlier.py
+This script expects a list of inter-arrival times (IATs) and calculates the modified IATs for ε-κalibur-O.
+
 ### Example Files
 - `iat.csv` contains a list of IATs as they would be produced by the original IAT covert channel.
 - `timings.csv` contains a list of ascending packet times of legitimate traffic, recorded with Wireshark.
