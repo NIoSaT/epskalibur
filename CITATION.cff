@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the related paper as below."
+authors:
+- family-names: "Zillien"
+  given-names: "Sebastian"
+  orcid: "https://orcid.org/0000-0003-3360-1251"
+- family-names: "Wendzel"
+  given-names: "Steffen"
+  orcid: "https://orcid.org/0000-0002-1913-5912"
+title: "Weaknesses of popular and recent covert channel detection methods and a remedy."
+version: 1.0.0
+date-released: 2023-02-01
+doi: 10.1109/TDSC.2023.3241451
+url: "https://github.com/NIoSaT/epskalibur"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Zillien"
+    given-names: "Sebastian"
+    orcid: "https://orcid.org/0000-0003-3360-1251"
+  - family-names: "Wendzel"
+    given-names: "Steffen"
+    orcid: "https://orcid.org/0000-0002-1913-5912"
+  journal: "IEEE Transactions on Dependable and Secure Computing"
+  title: "Weaknesses of popular and recent covert channel detection methods and a remedy."
+  doi: 10.1109/TDSC.2023.3241451
+  year: 2023
