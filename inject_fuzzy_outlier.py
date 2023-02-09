@@ -14,9 +14,12 @@ np.random.seed(0)
 
 def inject_fuzzy(x, tau):
     thresh = (3*tau)/2
-    #print(tau, thresh)
-    if x <= thresh:
-        return np.clip(np.abs(np.random.normal(0.0,scale=thresh/7)),0,thresh)
+
+    if x < thresh:
+        res = np.abs(np.random.normal(0.0,scale=thresh/7))
+        while res > thresh:
+            res = np.abs(np.random.normal(0.0,scale=thresh/7))
+        return res
     else:
         return np.random.choice(np.append(np.arange(thresh,2.4*tau,0.001),[(10*tau)]))
 
