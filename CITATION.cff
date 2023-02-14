@@ -7,7 +7,7 @@ authors:
 - family-names: "Wendzel"
   given-names: "Steffen"
   orcid: "https://orcid.org/0000-0002-1913-5912"
-title: "Weaknesses of popular and recent covert channel detection methods and a remedy."
+title: "Weaknesses of popular and recent covert channel detection methods and a remedy"
 version: 1.0.0
 date-released: 2023-02-01
 doi: 10.1109/TDSC.2023.3241451
@@ -22,6 +22,6 @@ preferred-citation:
     given-names: "Steffen"
     orcid: "https://orcid.org/0000-0002-1913-5912"
   journal: "IEEE Transactions on Dependable and Secure Computing"
-  title: "Weaknesses of popular and recent covert channel detection methods and a remedy."
+  title: "Weaknesses of popular and recent covert channel detection methods and a remedy"
   doi: 10.1109/TDSC.2023.3241451
   year: 2023
