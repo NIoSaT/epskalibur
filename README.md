@@ -1,7 +1,7 @@
 # ε-κalibur
 This repository contains instructions on the usage of the tool and includes sample inter-arrival time (IATs) files (CSV format) for the following submission:
 
-- [Sebastian Zillien](https://scholar.google.de/citations?user=kdCKry4AAAAJ&hl=de), [Steffen Wendzel](https://scholar.google.de/citations?user=DZqkZ1IAAAAJ&hl=en&oi=ao): *[Weaknesses of popular and recent covert channel detection methods and a remedy](https://ieeexplore.ieee.org/document/10034794)*.
+- [Sebastian Zillien](https://scholar.google.de/citations?user=kdCKry4AAAAJ&hl=de), [Steffen Wendzel](https://scholar.google.de/citations?user=DZqkZ1IAAAAJ&hl=en&oi=ao): **[Weaknesses of popular and recent covert channel detection methods and a remedy](https://doi.org/10.1109/TDSC.2023.3241451)**, in: IEEE Trans. Dependable and Secure Computing (TDSC), 2023.
 
 ## Usage
 Each script contains the relevant functions and a simple usage example.
